@@ -25,8 +25,7 @@ spreadsheet and text documents.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__python} setup.py install \
-        --optimize=2 \
+%py_install \
         --root $RPM_BUILD_ROOT
 
 %py_postclean
