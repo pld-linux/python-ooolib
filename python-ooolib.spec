@@ -8,6 +8,7 @@ Group:		Development/Languages/Python
 Source0:	http://downloads.sourceforge.net/ooolib/ooolib-python-%{version}.tar.gz
 # Source0-md5:	938245d947b2aca05a9d52a2b8be9af5
 URL:		http://ooolib.sourceforge.net/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
